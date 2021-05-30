@@ -1,0 +1,1526 @@
+@font-face {
+    font-family: 'double_porterregular_5';
+    src: url('fonts/doubleporter5-webfont.woff2') format('woff2'),
+         url('fonts/doubleporter5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Double Porter Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Double Porter Regular"),
+      url("fonts/DoublePorter5.ttf") format("woff");
+  }
+
+@font-face {
+  font-family: "Heading Pro Extra Lite";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Heading Pro Extra Lite"),
+    url("fonts/heading-pro/Heading-Pro-Compressed-Extralight-trial.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Heading Pro Compressed Bold trial";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Heading Pro Compressed Bold trial"),
+    url("fonts/heading-pro/Heading-Pro-Compressed-Bold-trial.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Heading Pro List trial";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Heading Pro List trial"),
+    url("fonts/heading-pro/Heading-Pro-Light-trial.ttf") format("woff");
+}
+
+
+a{
+    line-height: 1;
+} 
+
+/* Navbar */
+ .navbar-nav.custom-nav li{
+    background :#000;
+    margin: 0 5px;
+}
+.navbar-nav.custom-nav li a.nav-link{
+    color: #FECF08;
+    font-weight: 600;
+    padding: 0.6rem 1.8rem;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:1024px){
+.navbar-nav.custom-nav li a.nav-link{
+    color: #FECF08;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+}
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FECF08;
+}
+.navbar-nav.custom-nav li:hover,
+.navbar-nav.custom-nav li:focus,
+.navbar-nav.custom-nav li.active{
+    background-color:#FECF08;
+}
+.navbar-nav.custom-nav li:hover a.nav-link,
+.navbar-nav.custom-nav li.active a.nav-link{
+    color: #000;
+}
+.dropdown-menu.custom-dropdown{
+    background :#000;
+}
+.navbar-nav.custom-nav li a.nav-link.dropdown:focus,
+.dropdown-menu.custom-dropdown .dropdown-item{
+    color: #FECF08 !important;
+}
+.dropdown-menu.custom-dropdown a.dropdown-item:hover{
+    background-color:#FECF08;
+    color: #000 !important;
+}
+a.dropdown-item{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+@media screen and (max-width:1024px){
+    a.dropdown-item{
+        font-size: 0.8rem;
+    }
+}
+.main-banner{
+    box-shadow: 0 -4px 2px 0 #0000008c;
+}
+
+.alltext{
+    margin-top:-35px;
+}
+@media screen and (max-width:480px){
+    .alltext{
+        margin-top:-6px !important;
+    }
+}
+
+/* Home page */
+.home-banner-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80px;
+ }
+/* =======countdown========== */
+.countdownframe{
+    margin: 0 0 0 0;
+    border: 2px solid #FDD213;
+    box-shadow: 4px 4px 0px -1px #0000007a;
+}
+
+.ramadantext,.ramadantagline,.ramadantiming{
+    margin: 0;
+    padding: 0;
+    font-family: 'Double Porter Regular';
+    text-align: center;    
+    font-style: normal !important;        
+}
+
+.h2.ramadantext{
+    font-size: 7rem;
+    margin-top: 17px !important;
+    padding: 0;
+    color: #110f0dff;
+    letter-spacing: 3px;
+    line-height: 1.9;
+}
+@media screen and (max-width:1024px){
+    .h2.ramadantext{
+        margin-top: 29px !important;
+        font-size: 6.5rem;
+    }
+}
+@media screen and (max-width:480px){
+    .h2.ramadantext{
+        margin-top: 1px !important;
+        font-size: 4rem;
+        font-weight: 300;
+    }
+}
+.h3.ramadantagline{
+    font-size: 6rem;
+    /* font-weight: 700; */
+    color: #58595B;
+    line-height: 0.1;
+    font-weight: 100;
+}
+@media screen and (max-width:1024px){
+    .h3.ramadantagline{
+    font-size: 4.5rem;
+    font-weight: normal;
+    }
+}
+@media screen and (max-width:768px){
+    .h3.ramadantagline{
+    font-size: 3rem;
+    font-weight: normal;
+    }
+}
+@media screen and (max-width:500px){
+    .h3.ramadantagline{
+    font-size: 1.7rem;
+    font-weight: normal;
+    }
+}
+@media screen and (max-width:320px){
+    .h3.ramadantagline{
+    font-size: 1rem;
+    font-weight: normal;
+    }
+}
+.ramadantiming{
+    font-family: 'Double Porter Regular';
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    color: #110f0dff;
+    line-height: 2;
+}
+@media screen and (max-width:1024px){
+    .ramadantiming{
+    font-size: 2rem;
+    }
+}
+@media screen and (max-width:500px){
+    .ramadantiming{
+        margin-top: 0.1rem;
+    font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:320px){
+    .ramadantiming{
+        margin-top: 0.1rem;
+        font-size: 0.6rem;
+    }
+}
+
+#counter{
+    margin-top: -10px;
+}
+.countdate,.counthours,.countminutes,.countsecond{
+    font-family: 'double_porterregular_5';
+    font-size: 10rem;
+    line-height: 1;
+}
+@media screen and (max-width:480px){
+    .countdate,.counthours,.countminutes,.countsecond{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: -12px;
+    }
+}
+
+.text-muted{
+    font-family: 'Heading Pro Extra Lite';
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #110f0dff;
+    margin-top: -35px;
+    padding: 0;
+}
+@media screen and (max-width:480px){
+    .text-muted{
+        margin-top: -12px;
+    font-size: 1rem;
+    font-weight: normal;
+    }
+}
+@media screen and (max-width:320px){
+    .text-muted{
+        font-size: 0.7rem;
+        font-weight: normal;
+        margin-top: -12px;
+    }
+}
+.countdate{
+    color:#b1811eff;
+}
+.counthours{
+    color:#bc9238ff;
+}
+.countminutes{
+    color:#d2b75fff;
+}
+.countsecond{
+    color:#ebbd1dff;
+}
+
+.card{
+    border: .5px solid #1f1c1cff;
+    border-bottom: none;
+    border-radius: 0;
+}
+.card-custom{
+    margin-top: .2rem;
+}
+
+/* .card,.card_custom{
+    margin-top: 15px;
+    box-shadow:0.1rem 0.1rem 1.1rem #0000001c;
+} */
+
+.countdownFrameSpace{
+    margin-top: 22rem;
+}
+@media screen and (max-width: 768px) {
+    .countdownFrameSpace{
+        margin-top: 22rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .countdownFrameSpace{
+        margin-top: 11rem;
+    }
+  }
+
+  .event-details{
+    font-family: 'double_porterregular_5';
+    font-weight: 300;
+    margin-top: 23.5rem;
+    margin-left: 2.8rem;
+    font-size: 2rem;
+}
+
+.event_details{
+    font-family: 'double_porterregular_5';
+    font-weight: 600;
+    margin-top: 32rem;
+    font-size: 2.2rem;
+}
+@media screen and (max-width:1024px){
+.event_details{
+    font-family: 'double_porterregular_5';
+    font-weight: 600;
+    margin-top: 8rem;
+}
+}
+@media screen and (max-width:768px){
+    .event_details{
+        font-family: 'double_porterregular_5';
+        font-weight: 600;
+        margin-top: 5rem;
+    }
+    }
+@media screen and (max-width:325px){
+        .event_details{
+            font-family: 'double_porterregular_5';
+            font-weight: 600;
+            margin-top: -2rem;
+        }
+        }
+
+.activity-card-body{
+    height: 270px;
+}
+
+.activities{
+    font-family: 'Heading Pro Compressed Bold trial';
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.activity-title{
+    font-size: 1.6rem;
+}
+
+.activity-details{
+    font-family: 'Double Porter Regular';
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    line-height: .3rem;
+}
+
+.activity {
+    font-family: 'Heading Pro Extra Lite';
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.activity p {
+    font-family: 'Heading Pro Compressed Bold trial';
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+@media screen and (max-width:768px){
+    .activity p {
+        font-family: 'Heading Pro Compressed Bold trial';
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+}
+p.example-activity {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+@media screen and (max-width:425px){
+    p.example-activity {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
+.card-title.card-custom{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+@media screen and (max-width:768px){
+    .card-title.card-custom {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:425px)
+.card-title.card-custom {
+    font-size: 1.3rem;
+}
+.list-group-item{
+    border: none;
+    padding: 0;
+}
+.custom-button{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 1rem 0;
+}
+.custom-btn-info{
+    background-color: #fff;
+    font-size: 0.8rem; 
+    color: #414142;
+}
+.custom-btn-enternow{
+    background-color: #414142;
+    font-size: 0.8rem; 
+    color: #FFD115;
+}
+.custom-btn-submitEvidence{
+    background-color:#E24026;
+    font-size: 0.8rem; 
+    color:#fff;
+}
+@media screen and (max-width:1024px){
+    .custom-btn-info, .custom-btn-enternow, .custom-btn-submitEvidence{
+        font-size: 0.5rem; 
+    }
+}
+@media screen and (max-width:768px){
+    .custom-btn-info, .custom-btn-enternow, .custom-btn-submitEvidence{
+        font-size: 0.4rem; 
+    }
+}
+.list-group-custom{
+    margin: 0;
+    padding: 0 1.2rem;
+}
+.list-group-item.list-group-item-custom{
+    font-size: 1rem;
+    padding: 0rem 0;
+}
+.activity-cost{
+    float: right;
+    font-size: 1rem;
+    padding: 0;
+}
+.hr-custom{
+    padding: 0;
+    border-top: 1px solid #00000040;
+}
+.list-inline.list-inline-custom{
+    position: relative;
+    text-align: center;
+    margin: 0;    
+}
+.btn-grp-custom{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: row;
+}
+.btn-custom{
+    padding: 0.375rem 0.3rem;
+    border: none;
+    border-radius:0;
+    border: 0.1rem solid #0000001c;
+}
+.custom-cont{
+    background-color: #FFD115;    
+}
+.receive_donations{
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    font-weight: 600;  
+}
+@media screen and (max-width:768px){
+    .receive_donations{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:450px){
+    .receive_donations{
+        font-size: 0.7rem;
+    }
+}
+.maincard{
+    margin: 2rem 0;
+}
+.card-great-masque{
+    margin-top: 11px;
+    /* border: 0.3rem solid #FFD115; */
+    border: none;
+    border-radius: 0;
+}
+.card-img-top{
+    border-radius: 0; 
+    border: 8px solid #facf0dff;
+}
+.footer{
+    margin-top: 3rem;
+    box-shadow: 0 -4px 2px 0 #0000008c;
+}
+.lead.lead-copyright{   
+    font-size: 0.70rem;
+    color: #101010;  
+    font-weight: 700;
+}
+.social_media{
+   text-align: center;
+   margin: 0;   
+}
+.social_media a i{
+    color: #231F20;
+    font-size: 1rem;
+    border: 1px solid #231F20;
+    border-radius: 25%;
+    padding: 0.3rem;    
+}
+.social_media a i:hover{
+    color: #5f5e5e;
+    border: 1px solid #5f5e5e;
+}
+.footer{
+    position: relative;
+    padding: 1.5rem 0;
+}
+@media (max-width: 768px){
+    .footer .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+.footer .row.align-center > div {
+        flex: 1;
+        width: 100%;
+        max-width: 100%;
+    }    
+}
+.nav-link.footer-menu{
+    font-size: 0.7rem;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-link.footer-menu:hover{
+    color: #686868;
+}
+@media screen amd (max-width:1200){
+    .nav-link.footer-menu{
+        font-size: 0.5rem;
+        color: #000;
+        font-weight: 700;
+        display: block;
+        padding: 0.3rem 0.3rem;
+    }
+}
+
+.cardButton{
+    font-family: 'double_porterregular_5';
+    padding: 0;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    line-height: 1;
+}
+.entrynow{
+    background-color: #D9D8D6;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.entrynow sup, sup u{
+    font-family: 'double_porterregular_5';
+    font-size: 1.5rem;
+}
+@media screen and (min-width:768px) and (max-width:990px){
+    .cardButton{
+        font-size: 1.2rem;
+    } 
+} 
+@media screen and (max-width:768px){
+    .entrynow{
+        font-size: 2rem;
+    } 
+} 
+@media screen and (max-width:768px){
+    entrynow sup, sup u{
+        font-size: 1.1rem;
+    } 
+} 
+
+/* =============== meet_the_team =============== */
+
+.banner-text.text-meet-the-team{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -86px;
+}
+.img-banner{
+    width: 100%;
+    height: 400px;
+    background: url(images/meet_banner.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.meet-card{
+ margin-top: 2rem;
+}
+.meet_the_geam{
+    font-family: 'double_porterregular_5';
+    text-align: left;
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px #000;
+}
+@medis screen and (max-width:425px){
+    .meet_the_geam.impact-title{
+        font-size: 3rem;
+    }
+}
+.meet-support-text{
+    text-align: justify;
+    border: 1px solid;
+    padding: 1rem;
+    line-height: 1.2;
+    margin-top: -3rem;
+}
+.support-text{
+    text-align: justify;
+    border: 1px solid;
+    padding: 1rem;
+    line-height: 1.2;
+}
+@media screen and (max-width:480px){
+    .support-text{
+        font-size: 0.7rem;
+        text-align: justify;
+        border: 1px solid;
+        padding: 0.7rem;
+        line-height: 1.2;
+    }
+}
+.main-card{
+    margin-top: 4rem 0;
+}
+@media screen and (max-width:768px){
+    .main-card{
+        margin: 0;
+    }  
+}
+.image-circle{
+    border: 0.2rem solid #FECF08;
+    border-radius: 50% !important;
+    margin-top: 3rem;
+}
+.title{
+    margin: 0.5rem 0;
+}
+.h2.title-text{
+    font-family: 'double_porterregular_5';
+    text-align: center;
+    color: 000000;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.h5.team-member{
+    background-color: #231F20;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 1.8rem;
+    padding: 0.4rem 0;
+    color: #FFD115;
+}
+
+@media screen and (max-width:1190px){
+    .h5.team-member{
+        margin: 0 2.2rem;
+        padding: 0.4rem 0;
+    }
+}
+@media screen and (max-width:768px){
+    .h5.team-member{
+        margin:0;
+    }
+}
+.h6.designation{
+    color: #462c2c;
+}
+/* resources page */
+.img-bannerresources{
+    width: 100%;
+    height: 400px;
+    background: url(images/meet_banner_3.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.banner-textlines{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -124px;
+}
+@media screen and (max-width:375px){
+    .h3.meet_the_geam.resources-title{
+        font-size:4rem;
+    }
+}
+.btn.btn-primary.btn-resources {
+    font-family: 'double_porterregular_5';
+    margin: 0;
+    font-size: 3.5rem;
+    color: #000;
+    /* font-weight: 400; */
+    background: #fdd115;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;  
+}
+
+@media screen and (max-width:480px){
+    .btn.btn-primary.btn-resources{
+        font-size: 1.2rem;
+    }
+}
+/* popup_whatsapp */
+.float{
+    position: absolute;
+    background-color: #18B24B;
+    color: #FFF;
+    border: 0.15rem solid #FFF;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0.15rem 0.15rem 0.2rem #999;
+    padding: 4px 6px;
+    z-index: 100;
+    top: -36px;
+    left: 35px;
+}
+
+
+/* about */
+.banner-about-sec{
+    position: relative;
+}
+.jumbotron.img-banner.img-bannerresources.image-about{
+    width: 100%;
+    height: 400px;
+    background: url(images/inspiration_1.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.header-text-about {
+    font-family: 'double_porterregular_5';
+    text-align: left;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px #000;
+    line-height: 0.8;
+}
+@media screen and (max-width:425px){
+    .header-text-about{
+        font-size: 3rem;
+    }    
+}
+@media screen and (max-width:324px){
+    .header-text-about{
+        font-size: 2rem;
+    }    
+}
+.banner-text{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: -48px;
+}
+.h2.title-text-about{
+    font-family: 'double_porterregular_5';
+    margin-top: 3rem;
+    text-align: center;
+    color: #000000;
+    font-size: 4rem;
+}
+@media screen and (max-width:1024px){
+    .h2.title-text-about{
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:768px){
+    .h2.title-text-about{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    }
+}
+@media screen and (max-width:480px){
+    .h2.title-text-about{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    }
+}
+/* ============== inspiration================= */
+.team-container-inspirations{
+    margin-top: 7rem;
+}
+@media screen and (max-width:480px){
+    .team-container-inspirations{
+        margin-top: 4rem;
+    }
+}
+.h3.meet_the_geam_insp{
+    font-family: 'double_porterregular_5';
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px #000;
+    float: left;
+    line-height:2.5rem;
+}
+@media screen and (max-width:480px){
+    .h3.meet_the_geam_insp{
+        font-size: 2rem;
+        color: #fff;
+        text-shadow: 1.5px 1.5px 2px #000;
+        float: left;
+        line-height:2rem;
+    }
+}
+.img-banner-inspiration{
+    width: 100%;
+    height: 400px;
+    background: url(images/inspiration_1.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.card-great-Inspirations{
+     /* border: 0.3rem solid #000;     */
+}
+.CardInspirations{
+    /* margin-top: 11px; */
+    border: 0.2rem solid #FFD115;
+    border-radius: 0;   
+}
+.card-text-inspirations{
+    padding: 0.9rem;
+}
+.card-text-inspirationsmodal{
+    font-size: 0.9rem;
+}
+.btn.btn-secondary.btnmodalclose{
+    background-color: #FFD115;
+    color: #000;
+    padding: 0.9rem 1.2rem;
+}
+.inspire-others {
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #101010; 
+    padding: 0.8rem 2.9rem;
+    font-weight: 700;
+    border-radius: 0;    
+}
+.btn.btn-primary.inspire-others:hover{
+    background-color: #FFD115;
+    color: #101010;
+   
+}
+@media only screen  and (max-width: 1024px) {
+    .inspire-others{
+        font-size: 1rem;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .inspire-others{
+        font-size: 0.7rem;
+    }
+}
+@media only screen  and (max-width: 375px) {
+    .inspire-others p{
+        font-size: 0.6rem;
+    }
+}
+
+/* ============impact============= */
+.img-bannerimpact{
+    width: 100%;
+    height: 400px;
+    background: url(images/meet_banner_3.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.main-table{
+    margin-top: 12rem;
+}
+@media only screen  and (max-width: 1024px) {
+    .main-table{
+        margin-top: 4.5rem;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .main-table{
+        margin: 3rem -2.2rem;;
+    }
+}
+@media only screen  and (max-width: 480px) {
+    .main-table{
+        margin: 1.5rem 0;
+    }
+}
+.table-bordered td, .table-bordered th {
+    border: 1.3px solid #000000;
+}
+.tab-headline{
+    background: #FECF08;
+}
+.tab-headline th{
+    vertical-align: middle !important;
+    font-size: 0.9rem;
+}
+.table_footer{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #FFD115;
+    background: #000000;
+}
+.supportUs{
+    margin: 2.5rem 0;
+    align-content: center;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .supportUs{
+     margin: 3rem 1.5rem;
+    align-content: center;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 425px)
+    .supportUs {
+    margin: 0rem 2.5rem;
+    align-content: center;
+    text-align: center;
+}
+.supportUs .support_title{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffffff;
+    background:#000000;
+}
+.support_list{
+    background: #FFD115;
+    border: 1.3px solid #000000;
+}
+.h2.title-text.title-impact{
+    margin-top: 2.5rem;
+}
+@media screen and (max-width:425px){
+    .h2.title-text.title-impact {
+        margin-top: -2.5rem;
+    }
+}
+
+/* ===============sponsorship============= */
+.img-banner-sponsorship{
+    width: 100%;
+    height: 400px;
+    background: url(images/business_support.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.h2.title-text.titleSponsorship{
+    margin: 2.5rem 0;
+}
+.h3.meet_the_geam_spons{
+    font-family: 'Double Porter 5';
+    font-size: 9.5rem;
+    color: #fff;
+    text-shadow: 2.5px 2.5px 2px #000;
+    float: right;
+    line-height: 0.8;
+    text-align: right;   
+}
+@media screen and (max-width:768px){
+    .h3.meet_the_geam_spons{
+        font-size: 6rem;         
+    }
+}
+@media screen and (max-width:425px){
+    .h3.meet_the_geam_spons{
+        font-size: 4rem;         
+    }
+}
+.h3.sponsors{
+    font-family: 'Double Porter 5';
+    margin-top: 9rem;
+    text-align: center;
+    color: #FFD115;
+    text-shadow: 4px 0px 3px #000;
+    font-size: 4.5rem;
+    line-height: 0.8;
+}
+ @media only screen  and (max-width: 1024px) {
+    .h3.sponsors{
+        font-size: 3rem;
+    }
+} 
+@media only screen  and (max-width: 768px) {
+    .h3.sponsors{
+        margin-top: 10rem;
+        font-size: 2rem;
+        text-shadow: 2px 1px 0px #000;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .h3.sponsors{
+        margin-top: 7.5rem;
+        font-size: 1.5rem;
+        text-shadow: 2px 1px 0px #000;
+    }
+}
+@media only screen  and (max-width: 320px) {
+    .h3.sponsors{
+        margin-top: 9rem;
+        font-size: 1.3rem;
+        text-shadow: 2px 1px 0px #000;
+        line-height: .9;
+    }
+}
+.customform{margin-top: 2.8rem;text-align: center;}
+.form-control.custom_from_control{
+    font-family: 'Double Porter 5';
+    background: #E6E7E8;
+    border: 1px solid #000;
+    margin: 0.3rem;
+    border-radius: 19px;
+    font-size: 2.5rem;
+}
+.form_btn{
+    font-family: 'Double Porter 5';
+    margin-top: 1rem !important;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 4.2rem;
+    background: #fccf0c;
+    border-radius: 0;
+    font-size: 2.5rem;
+}
+.form_btn, .from_btn_volunteer:hover{    
+    background: #DDB612;
+
+}
+.titleSpon2021{
+    font-size: 17rem;
+    line-height: 0.8;
+    font-weight: normal;
+}
+@media screen and (max-width:425px){
+    .titleSpon2021{
+        font-size: 6rem !important;
+    }
+}
+@media screen and (max-width:768px){
+    .titleSpon2021{
+        font-size: 9rem;
+    }
+}
+/* ===============volunteer=============== */
+.customformvolunteer{
+    margin-top:3.5rem;
+}
+.h3.meet_the_geam_volunteering{
+    font-family: 'double_porterregular_5';
+    font-size: 4.5rem;
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px #000;
+    float:left;    
+}
+@media screen and (max-width:375px){
+    h3.meet_the_geam_volunteering{
+        font-size: 2rem;
+}
+}
+.mainsection{
+    background-color:#E9ECEF;
+}
+.img-banner-volunteering{
+    width: 100%;
+    height: 400px;
+    background: url(images/volunteering.png); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+/* ------------form------------ */
+
+.h3.volunteer{
+    margin-top: 4rem;
+    
+}
+@media only screen  and (max-width: 768px) {
+    .h3.volunteer{
+        margin-top: 7rem;
+        font-size: 1.2rem;
+    }
+} 
+@media only screen  and (max-width: 466px) {
+    .h3.volunteer{
+        margin-top: 14rem;
+        font-size: 0.9rem;
+        text-shadow: 1px 1px 1px #000;
+    }
+}
+@media only screen  and (max-width: 320px) {
+    .h3.volunteer{
+        margin-top: 17rem;
+        font-size: 0.8rem;
+        text-shadow: 1px 1px 1px #000;
+    }
+}
+
+.labelform{
+    margin: 0 0 13px 0;
+    padding: 4px 7px;
+    font-weight: 700;
+    background-color: #FDD213;
+    font-size: 1.25rem; 
+    width: 100%;
+}
+@media only screen  and (max-width: 990px) {
+    .labelform{        
+        padding: 10px;
+        font-size: 0.8rem;
+        background-color: #FDD213;
+}
+}
+@media only screen  and (max-width: 768px) {
+    .labelform{        
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 0.8rem;
+        background-color: #FDD213;
+}
+}
+@media only screen  and (max-width: 428px) {
+    .labelform{
+        background-color: transparent;
+        margin: 0;
+        font-size: 1rem;
+}
+}
+@media only screen  and (max-width: 428px) {
+    .h2.title-text{
+        font-size: 1.4rem;
+}
+}
+.form-control.custom_from_cvolunteer{
+    background: #fff;
+    border: 1.3px solid #FDD213;
+    padding: 0.65rem 0.5rem;
+    margin: 0rem;
+    border-radius: 0;
+}
+.forminput{
+        margin: 0;
+        padding: 0 18px 0 0;
+}
+@media only screen  and (max-width: 768px) {
+    .forminput{
+        margin: 0;
+        padding: 5px 8px 0 0;
+}
+}
+@media only screen  and (max-width: 428px) {
+    .forminput{
+        margin: 0;
+        padding: 0 8px 0 0;
+}
+}
+.volunteer_want, .volunteer_want h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FDD213;
+    padding: 4px 7px;
+    width: 100%;
+    margin-top: 1rem;
+}
+@media screen and (max-width:768px){
+    .volunteer_want, .volunteer_want h5{
+        font-size: 1rem;        
+    }
+}
+@media screen and (max-width:425px){
+    .volunteer_want, .volunteer_want h5{
+        font-size: 0.9rem;        
+    }
+}
+.textareavolunteer{
+    width: 100%;
+    border: 1.3px solid #FDD213;
+    height: 150px;
+    margin: -8px 0 5px;
+    border-radius: 0;
+}
+.from_btn_volunteer{
+    font-family: 'double_porterregular_5';
+    display: block;
+    margin: auto;
+    padding: 0 3rem;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+    background: #FECF08;
+    border: 0;
+    
+}
+/* ============contact us========== */
+.img-banner-contactus{
+    width: 100%;
+    height: 520px;
+    background: url(images/Contact-Us.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 15px 9px -11px #000, inset 0px -11px 14px -8px #866901;
+}
+@media screen and (max-width:480px){
+    .img-banner-contactus{
+        background: transparent;
+    }
+}
+.h3.meet_the_geam_contact{
+    font-family: "Double Porter 5";
+    font-size: 8.5rem;
+    color: rgb(254, 207, 8);
+    text-shadow: -1px 1px 0 #000,
+	1px 1px 0 #000,
+	1px -1px 0 #000,
+	-1px -1px 0 #000;
+    margin-top: -3rem;
+    letter-spacing: 5px;
+} 
+@media screen and (max-width:990px){
+    .h3.meet_the_geam_contact{
+        margin-top: 0;
+        font-size: 5.5rem;
+    } 
+} 
+@media screen and (max-width:768px){
+    .h3.meet_the_geam_contact{
+        margin-top: 0;
+        font-size: 5.5rem;
+    } 
+} 
+@media screen and (max-width:480px){
+    .h3.meet_the_geam_contact{
+        font-size: 3rem;
+        margin-top: -6rem;
+    } 
+} 
+@media screen and (max-width:375px){
+    .h3.meet_the_geam_contact{
+        font-size: 2rem;
+    } 
+} 
+.h3.love-to-hear{
+        color: #FFB900;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+}
+@media screen and (max-width:1024px){
+    .h3.love-to-hear{
+        color: #FFB900;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+}
+}
+@media screen and (max-width:768px){
+    .h3.love-to-hear{
+        color: #FFB900;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+}
+}
+.form-control.form-control-contactUs{
+    background-color:#FFF3D4;
+    border: none;
+}
+.btn-contactUs{
+    background-color: #FFB900;
+    border: 0;
+    padding: 0.5rem 3rem;
+    box-shadow: 0px 3px 6px #0000007a;
+}
+.btn-contactUs:hover{
+    background-color: #facf59;
+}
+.social_media_share a i{
+    color: #FECF08;
+    font-size: 2rem;
+    border: 1px solid #FECF08;
+    border-radius: 10px;
+    padding: 0.9rem;
+    background-color: #101010;
+    
+}
+.social_media_share a i:hover{
+    color: #5f5e5e;
+    border: 1px solid #5f5e5e;
+}
+
+/* ==================Enter 2021=========== */
+.img-banner-enter2021{
+    width: 100%;
+    height: 400px;
+    background: url(images/meet_banner.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.cardsection{
+    margin-top:10rem;    
+}
+@media only screen  and (max-width: 425px) {
+    .cardsection{
+        margin-top:10rem;    
+    }
+}
+
+/* =============physical activity============== */
+.title-color{
+    color: #DDB612;
+}
+.img-banner-physical{
+    width: 100%;
+    height: 400px;
+    background: url(images/activity1.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.h3.meet_the_geam_activity{
+    font-family: 'double_porterregular_5';
+    font-size: 7.5rem;
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px #000;
+    float: right;
+    text-align: end;
+    line-height: 0.75;  
+}
+@media screen and (max-width:425px){
+    .h3.meet_the_geam_activity{
+        font-size: 3.85rem;
+        text-shadow: 1px 1.x 1.5px #000;
+    }
+}
+.btn.btn-primary.btn-physical{
+    margin: 0;
+    font-size: 1.6rem;
+    color: #FFF;
+    background: #00b922;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0;   
+}
+@media screen and (max-width:1198px){
+    .btn.btn-primary.btn-physical,.btn-physicalenter.subevent{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:986px){
+    .btn.btn-primary.btn-physical,.btn-physicalenter.subevent{
+        font-size: 1.1rem;
+    }
+}
+.btn-physicalenter{
+    font-size: 1.6rem;
+    color: #ffd115;
+    background: #404041;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 24px; 
+}
+.btn-physicalenter.subevent{
+    color: #ffffff;
+    background: #E83E23;
+}
+.maincustomfc{
+    border: 1px solid #333333;
+}
+.customfc{
+    text-align: justify !important;
+    border:0 ;
+}
+.social_media_share2{
+    padding: 10px;
+}
+.social_media_share2 a i{
+    color: #FECF08;
+    font-size: 2rem;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 0.9rem;    
+}
+.social_media_share2 a i.fa-whatsapp{
+    color: #00B922;
+}
+.social_media_share2 a i.fa-facebook-f{
+    color: #1D67AC;
+}
+.social_media_share2 a i.fa-instagram{
+    color: #E50085;
+}
+.social_media_share2 a i.fa-twitter{
+    color: #1D9BEC;
+}
+.btnmani{
+    margin: 0.5rem;
+}
+btn-physicalb{
+    margin: 0;
+    font-size: 1.4rem;
+    color: #FFF;
+    background: #00b922;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0;   
+}
+
+.jumbotron.img-banner.img-banner-physical.spiritual{
+    width: 100%;
+    height: 400px;
+    background: url(images/activity2.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;    
+}
+.btn.btn-primary.btn-physical1,.btn-physical2,.btn-physical3{
+    margin: 0;
+    font-size: 1.6rem;
+    color: #FECF08;
+    background: #231F20;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 7px 0;   
+}
+.btn.btn-primary.btn-physical3{
+    font-size: 1.1rem;
+    padding: 19px 0;
+}
+
+@media only screen  and (max-width: 768px) {
+    .btn.btn-primary.btn-physical1,.btn-physical2,.btn-physical3{
+        font-size: 0.9rem;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .btn.btn-primary.btn-physical3{
+        font-size: 0.7rem;
+        padding: 12px 0;
+    }
+}
+.jumbotron.img-banner.img-banner-physical.little-pledge{
+    width: 100%;
+    height: 400px;
+    background: url(images/activity3.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;  
+    border-radius: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;    
+}
+
+/* ============shops============== */
+.shopcards{
+    margin-top:14rem;    
+}
+ @media only screen  and (max-width: 600px) {
+    .cardsection{
+        margin-top:10rem;    
+    }
+}
+@media only screen  and (max-width: 400px) {
+    .cardsection{
+        margin-top:10rem;    
+    }
+} 
